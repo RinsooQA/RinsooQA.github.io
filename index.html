@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <link href="./normalize.css" rel="stylesheet" />
+    <link href="./ios.css" rel="stylesheet" />
+    <title>RinsooQA</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="./avatar.png" alt="avatar" class="header__avatar" />
+      <div class="header__textContainer">
+        <h1 class="header__title">Ольга Сиделева</h1>
+         <h3 class="header__subtitle">Я - <span class="input">тест</span></h3>
+      </div>
+    </header>
+    <main>
+      <section class="links">
+        <h2 align="center" class="links__header">Обо мне</h2>
+        <ul class="links__container">
+          <li class="links__link">
+            <p class="links__title">Контакты</p>
+            <a class="linsk__link" href="contacts.html">связаться со мной</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Инструменты</p>
+            <a class="linsk__link" href="instr.html">что я использую в работе</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Проекты</p>
+            <a class="linsk__link" href="resume.html">над чем я работала</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+   <footer>
+      <button type = "button" class="button-link" href="">Нашел баг?</button>
+    </footer>
+    <script type="text/javascript" src="js.js"></script>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        
+
+        var typed=new Typed(".input",{
+            strings:["тестировщик","QA Engineer","тестировщик","QA Engineer","тестировщик","QA Engineer","тестировщик","QA Engineer","тестировщик", "QA Engineer",],
+            typeSpeed:90,
+            backSpeed:70,
+            loop:true
+        });
+    </script>  
+</html>

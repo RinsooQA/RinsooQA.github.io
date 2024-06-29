@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <link href="./normalize.css" rel="stylesheet" />
+    <link href="./ios.css" rel="stylesheet" />
+    <title>RinsooQA</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="./avatar.png" alt="avatar" class="header__avatar" />
+      <div class="header__textContainer">
+        <h1 class="header__title">rinsoo</h1>
+         <h3 class="header__subtitle">Я - <span class="input">тест</span></h3>
+      </div>
+    </header>
+    <main>
+      <section class="links">
+        <h2 align="center" class="links__header">Инструменты</h2>
+        <ul class="links__container">
+           <li class="links__link">
+            <p class="links__title">Документация</p>
+            <p class="inst_link">Вики, Notion, Swagger, Figma</p>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Front</p>
+            <p class="inst_link">Devtools, Pixelperfect </p>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Backend</p>
+            <p class="inst_link"
+              >Postman, Swagger, SOAP UI</p>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Чек-листы</p>
+            <a class="inst_link" href="https://vk.com/rinsoo">Miro</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">TMS</p>
+            <p class="inst_link">Test IT</p>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Таск трекер</p>
+            <p class="inst_link">Яндекс-трекер</p>
+          </li>
+          <li class="links__link">
+            <p class="links__title" >Доступ в БД</p>
+            <p class="inst_link"> Metabase, MongoDB </p>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Логи</p>
+            <p class="inst_link"> Sentry, Kibana</p>
+          </li>
+          <li class="links__link">
+            <p class="links__title" >Сниффер</p>
+            <p class="inst_link"> Charles </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+   <footer>
+      <a class="button-link" href="index.html">назад</a>
+    </footer> 
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        
+
+        var typed=new Typed(".input",{
+            strings:["тестировщик","QA Engineer","тестировщик","QA Engineer","тестировщик","QA Engineer","тестировщик","QA Engineer","тестировщик", "QA Engineer",],
+            typeSpeed:90,
+            backSpeed:70,
+            loop:true
+        });
+    </script>  
+</html>
